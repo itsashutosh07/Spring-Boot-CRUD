@@ -1,4 +1,4 @@
-#Built a bunch of CRUD APIs using Java & Spring Boot.
+# Built a bunch of CRUD APIs using Java & Spring Boot.
 
 ## Salient Features:
   - User authentication and role based access management all the APIs.
@@ -9,7 +9,7 @@
   - Utilization of standardised practice of logic division in differnt packages like - Entity, Controller, Service, DAO, Security, Batch. 
 
 
-###Overview:
+### Overview:
 **1. An Employee Entity having following features:**
   a. `EmployeeID` - Auto Generated - Integer
   b. `FirstName` - String
