@@ -10,24 +10,24 @@
 
 
 ### Overview:
-**1. An Employee Entity having following features:**
-  a. `EmployeeID` - Auto Generated - Integer
-  b. `FirstName` - String
-  c. `LastName` - String
-  d. `Email` - String
-  e. `Gender` - Enumerated
-**2. Employee Controller with the following APIs exposed:**
-  a. GET Mapping:
-    - Get list of all employees
-    - Get employee by `EmployeeID`
-    - Get employee by `Email`
-  b. POST Mapping:
-    - Add an employee
-    - Add a list of employees
-    - ==Upload== List of Employees using a `MultipartFile`
-      - _Multi-threading support built for file upload._
-  c. PUT Mapping:
-    - Edit employee data using `EmployeeID`
-  d. DELETE Mapping:
-    - Delete employee data using `EmployeeID`
+1. **An Employee Entity having following features:**
+    1. `EmployeeID` - Auto Generated - Integer
+    2. `FirstName` - String
+    3. `LastName` - String
+    4. `Email` - String
+    5. `Gender` - Enumerated
+2. **Employee Controller with the following APIs exposed:**
+    1. GET Mapping:
+        - Get list of all employees
+        - Get employee by `EmployeeID`
+        - Get employee by `Email`
+    2. POST Mapping:
+        - Add an employee
+        - Add a list of employees
+        - _Upload_ List of Employees using a `MultipartFile`
+            > Multi-threading support built for CSV file upload.
+    3. PUT Mapping:
+        - Edit employee data using `EmployeeID`
+    4. DELETE Mapping:
+        - Delete employee data using `EmployeeID`
     
