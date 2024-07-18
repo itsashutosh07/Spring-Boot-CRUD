@@ -8,6 +8,9 @@
   - Publishing Events and Subscribing to Events via Apache Kafka.
   - Utilization of standardised practice of logic division in differnt packages like - Entity, Controller, Service, DAO, Security, Batch. 
 
+## Technologies Used:
+  - Java, Spring Boot, JPA, Hibernate, MySQL, Redis, Kafka, Log4J.
+  - RESTful APIs, Authentication, Authorization, Multi-threading, Cacheing, Logging, File processing.
 
 ### Overview:
 1. **An Employee Entity having following features:**
